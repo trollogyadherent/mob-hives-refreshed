@@ -1,0 +1,16 @@
+[
+    {
+      "modid": "${modId}",
+      "name": "${modName}",
+      "description": "Fight against naturally spawning Hives of mobs!",
+      "version": "${modVersion}",
+      "mcversion": "${minecraftVersion}",
+      "url": "https://github.com/SinTh0r4s/MyMod",
+      "updateUrl": "",
+      "authorList": ["§8Shadow_Mods"],
+      "credits": "trollogyadherent",
+      "logoFile": "",
+      "screenshots": [],
+      "dependencies": []
+    }
+]

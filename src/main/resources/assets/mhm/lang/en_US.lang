@@ -1,0 +1,28 @@
+# Block names
+tile.HiveTier1.name=Tier 1 Hive
+tile.HiveTier2.name=Tier 2 Hive
+tile.HiveTier3.name=Tier 3 Hive
+tile.HiveTier4.name=Tier 4 Hive
+tile.HiveTier5.name=Tier 5 Hive
+tile.TriggeredHiveTier1.name=Triggered Tier 1 Hive
+tile.TriggeredHiveTier2.name=Triggered Tier 2 Hive
+tile.TriggeredHiveTier3.name=Triggered Tier 3 Hive
+tile.TriggeredHiveTier4.name=Triggered Tier 4 Hive
+tile.TriggeredHiveTier5.name=Triggered Tier 5 Hive
+tile.DeadHive.name=Dead Hive
+tile.CreeperHive.name=Creeper Hive
+tile.SkeletonHive.name=Skeleton Hive
+tile.SpiderHive.name=Spider Hive
+tile.ZombieHive.name=Zombie Hive
+
+# Entity Names
+entity.mhm.EntityHiveSkeleton.name=Hive Skeleton
+entity.mhm.EntityHiveSpider.name=Hive Spider
+entity.mhm.EntityHiveZombie.name=Hive Zombie
+entity.mhm.EntityHiveCreeper.name=Hive Creeper
+entity.mhm.EntityHiveSkeletonRegular.name=Hive Skeleton
+entity.mhm.EntityHiveSpiderRegular.name=Hive Spider
+entity.mhm.EntityHiveZombieRegular.name=Hive Zombie
+
+# Other
+mhm.configgui.title=Mob Hives Config
