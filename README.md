@@ -9,6 +9,8 @@
 
 I might or might not add more features, feel free to do so since the mod can be easily built (as of 20-09-22).
 
+![image](https://user-images.githubusercontent.com/19153947/191300376-e61ab31d-471c-470f-8352-abea069a4caf.png)
+
 ## Original description
 Welcome to my newest project! In short, this mod spawns 9 different types of hives around the Overworld. All Hives can be sorted into either the standard or the tiered category. All Hives, when approached, will spawn mobs to defend itself from you! However, the 2 categories of Hives differ greatly on many aspects. Here is a quick rundown!
 
