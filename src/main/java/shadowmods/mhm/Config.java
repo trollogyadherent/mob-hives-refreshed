@@ -3,6 +3,7 @@ package shadowmods.mhm;
 import cpw.mods.fml.client.config.GuiConfigEntries;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
+import shadowmods.mhm.util.Util;
 
 import java.io.File;
 
@@ -181,7 +182,11 @@ public class Config {
             aboveSpawn = aboveSpawnProp.getBoolean();
             Property nsdProp = config.get(Categories.general, "Natural Spawning Disabled", Defaults.nsd, "Set to true to disable Hives from naturally spawning");
             nsd = nsdProp.getBoolean();
-            Property explosiveArrowChanceProp = config.get(Categories.general, "Arrow Explosion Chance", Defaults.explosiveArrowChance, "Chance for a Hive Skeleton Arrow to explode", 0, 1).setConfigEntryClass(GuiConfigEntries.NumberSliderEntry.class);
+            Property explosiveArrowChanceProp = config.get(Categories.general, "Arrow Explosion Chance", Defaults.explosiveArrowChance, "Chance for a Hive Skeleton Arrow to explode", 0, 1);
+            if (!Util.isServer()) {
+                explosiveArrowChanceProp.setConfigEntryClass(GuiConfigEntries.NumberSliderEntry.class);
+            }
+            explosiveArrowChance = (float) explosiveArrowChanceProp.getDouble();
 
             /* spawnRates */
             Property tier1SpawnChanceProp = config.get(Categories.spawnRates, "Tier 1 Spawn Chance", Defaults.tier1SpawnChance, "Spawn chance of Tier 1 Hives", 0, Integer.MAX_VALUE);

@@ -9,7 +9,7 @@
       "updateUrl": "",
       "authorList": ["§8Shadow_Mods"],
       "credits": "trollogyadherent",
-      "logoFile": "",
+      "logoFile": "assets/${modId}/logo.png",
       "screenshots": [],
       "dependencies": []
     }

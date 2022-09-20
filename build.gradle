@@ -451,6 +451,8 @@ runServer {
         ]
     }
 
+    arguments += ["nogui"]
+
     args(arguments)
     jvmArgs(jvmArguments)
 }
